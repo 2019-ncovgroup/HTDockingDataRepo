@@ -1,11 +1,18 @@
-## Welcome to GitHub Pages
+## HT Docking Data
+This site will be updated to include links to the data from our paper.
 
-You can use the [editor on GitHub](https://github.com/2019-ncovgroup/HTDockingDataRepo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 ### Data
 The first portion of data is available from fig share containing molecule names, SMILES, and docking score against 25 unique targets: [https://figshare.com/articles/dataset/Protein-Ligand_Docking_Surrogate_Models_SARS-CoV-2_Benchmark_for_Deep_LearningAccelerated_Virtual_Screening/14745234](https://figshare.com/articles/dataset/Protein-Ligand_Docking_Surrogate_Models_SARS-CoV-2_Benchmark_for_Deep_LearningAccelerated_Virtual_Screening/14745234)
 
 A further release of larger portions of data will be avilable in the next day. 
+
+#### 3D structure complexes
+
+#### Protein Receptors 
+The protein receptors are available via Globus: 
+
+#### Pretrained models
 
 
 ### Acknowledgements
