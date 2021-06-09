@@ -2,17 +2,34 @@
 This site will be updated to include links to the data from our paper.
 
 
-### Data
-The first portion of data is available from fig share containing molecule names, SMILES, and docking score against 25 unique targets: [https://figshare.com/articles/dataset/Protein-Ligand_Docking_Surrogate_Models_SARS-CoV-2_Benchmark_for_Deep_LearningAccelerated_Virtual_Screening/14745234](https://figshare.com/articles/dataset/Protein-Ligand_Docking_Surrogate_Models_SARS-CoV-2_Benchmark_for_Deep_LearningAccelerated_Virtual_Screening/14745234)
+## Data
+The data is avilable here via [Globus](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fcleaned_docking_dat%2F)
 
-A further release of larger portions of data will be avilable in the next day. 
+
+### Top Level Files
+The top level direcetory is accessible here: [https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fcleaned_docking_dat%2F](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fcleaned_docking_dat%2F)
+Folder | Description 
+------------ | -------------
+2D | Contains CSV files for each protein indivuidal. They do not contain more data from the aggregated top level ORD and ORZ tables. 
+3D | Contains all the SDF files organized by molecular dataset (ORZ or ORD) and protein receptor (in file name). These correspond directly 1-1 to CSV files.
+Models | Contains all the pretrained model files referenced from the paper 
+Receptors | Contains all the pdb, receptors, and pdbqt (for AutoDock Vina) which corespond to models and proteins refererenced in filenames and columns from 2D, 3D, and Models folder.
+
+#### 2D Data
+Filename | Description
+------------ | -------------
+ord_table.csv | Contains SMILES, TITLE, and docking score against all avilable proteins. Scores are based on Chemgauss4. Molecules from ORD (6M)
+orz_table.csv | Contains SMILES, TITLE, and docking score against all avilable proteins. Scores are based on Chemgauss4. Molecules from ORZ (6M)
 
 #### 3D structure complexes
+The structures are avilable in SDF files here via [Globus](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fcleaned_docking_dat%2F3D%2F)
 
 #### Protein Receptors 
-The protein receptors are available via Globus: 
+The protein receptors are available via [Globus](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fcleaned_docking_dat%2FReceptors%2F)
 
 #### Pretrained models
+
+A portion of this data is backup on [FigShare](https://figshare.com/articles/dataset/Protein-Ligand_Docking_Surrogate_Models_SARS-CoV-2_Benchmark_for_Deep_LearningAccelerated_Virtual_Screening/14745234)
 
 
 ### Acknowledgements
